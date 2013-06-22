@@ -1,0 +1,9 @@
+"wmctrl -r :ACTIVE: -b toggle,fullscreen"
+m:0x4 + c:65
+Control + space
+
+"xdotool click 2"
+m:0x80 + b:1 + release
+
+"xdotool click 3"
+m:0x01 + b:1 + release
